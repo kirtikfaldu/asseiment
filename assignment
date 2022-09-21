@@ -1,0 +1,134 @@
+• Are the HTML tags and elements the same thing?
+= The <html> tag represents the root of an HTML document.
+The <html> tag is the container for all other HTML elements
+• What are tags and attributes in HTML?
+The <html> tag also supports the Global Attributes in HTML
+• What are void elements in HTML?
+Void elements do not have end tags.
+Void elements cannot have content inside it.
+Void elements have attributes.
+Void elements cannot be nested.
+• What are HTML Entities?
+Some characters are reserved in HTML.
+If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+Character entities are used to display reserved characters in HTML.
+• What are different types of lists in HTML?
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+The list items will be marked with bullets (small black circles) by default:
+• What is the ‘class’ attribute in HTML?
+The class attribute specifies one or more classnames for an element.
+The class attribute is mostly used to point to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+• What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+elements?
+Sr. No.	Key	Id	Class
+1	Syntax	In Html for an element ID name starts with the “#” symbol followed by a unique name assigned to it.	On the other hand class assigned to an element has its name starts with “.” followed by class name.
+2	Selector	Only one ID selector can be attached to an element.	Multiple class selectors can be attached to an element.
+3	Uniqueness	Id is unique in a page and can only apply to at most one element	The class can be applied to multiple elements so it could be multiple times on a single page.
+
+• How is Cell Padding different from Cell Spacing?
+Cellpadding
+
+Cellspacing
+
+It specifies the space between the border of a table cell and its contents.	It specifies the space between adjacent cells.
+It is created by using HTML <table> tag but type attribute is set to cellpadding.	It is also created by using HTML <table> tag but type attribute is set to cellspacing.
+It is mainly meant for a single cell.	Cellspacing can get subjected to more than one cell.
+The default cellpadding value is 1 	Whereas, the default cellspacing value is 2
+Cellpadding is widely used and considered to be an effective mean	Cellspacing is less effective than Cellpadding.
+Cellpadding is an attribute	Cellspacing is also an attribute.
+• How to create a Hyperlink in HTML?
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+The link text is the part that will be visible to the reader.
+Clicking on the link text, will send the reader to the specified URL address.
+• What is the use of an iframe tag?
+The <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.The <iframe> tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+• What is the use of a span tag? Explain with example?
+A <span> element which is used to color a part of a text:
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>A <span> element which is used to color a part of a text:
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+• How to insert a picture into a background image of a web page?
+Background Image in HTML
+CSS background-image Property
+Background Repeat
+Using Class
+Linear-gradient
+3 Color Gradient
+Repeating Linear Gradient
+Radial Gradient
+3 Color Radial Gradient
+Repeating Radial Gradien
+• How are active links different from normal links?
+Websites are designed to point you to different resources. You can move from one website to another through links. Links help you to get information from different resources. Links are established in simple HTML web pages through <a> tag.
+Links are categorized into three types. Typically a Link is displayed in three different colors based on the usage.
+Active Link: In example 1, If you left or right-click any one of the links Visited or Unvisited, it will turn into Red and Underline. Active Links shows that the browser is in the process to load a new resource.  You can do your own custom styling using CSS :active selector. In the above output, notice the active link on right-click of the link
+• What do you understand by CSS opacity?
+Opacity has a default initial value of 1 (100% opaque). Opacity is not inherited, but because the parent has opacity that applies to everything within it. You cannot make a child element less transparent than the parent, without some trickery. Values are a number from 0 to 1 representing the opacity of the channel (the “alpha” channel). When an element has a value of 0 the element is completely invisible; a value of 1 is completely opaque (solid).
+• How can the background color of an element be changed?
+To set the background color in HTML, use the style attribute. The style attribute specifies an inline style for an element. The attribute is used with the HTML <body> tag, with the CSS property background-color. HTML5 do not support the <body> tag bgcolor attribute, so the CSS style is used to add background color. The bgcolor attribute deprecated in HTML5.
+Just keep in mind, the usage of style attribute overrides any style set globally. It will override any style set in the HTML <style> tag or external style sheet.
+• What is the use of the background-position property?
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;
+
+/* <percentage> values */
+background-position: 25% 75%;
+
+/* <length> values */
+background-position: 0 0;
+background-position: 1cm 2cm;
+background-position: 10ch 8em;
+
+/* Multiple images */
+background-position: 0 0, center;
+
+/* Edge offsets values */
+background-position: bottom 10px right 20px;
+background-position: right 3em bottom 10px;
+background-position: bottom 10px right;
+background-position: top right 10px;
+
+/* Global values */
+background-position: inherit;
+background-position: initial;
+background-position: revert;
+background-position: revert-layer;
+background-position: unset;
+• How to center block elements using CSS1?
+To horizontally center a block element (like <div>), use margin: auto;
+Setting the width of the element will prevent it from stretching out to the edges of its container.
+The element will then take up the specified width, and the remaining space will be split equally between the two margins:
+• How to maintain the CSS specifications?
+Web Platform Tests Project 
+The WPT project maintains a shared test suite for the CSS specifications and other Web Platform technologies.
+The Mozilla Project 
+The Mozilla Project maintains the Gecko layout engine, which forms the core of the Firefox web browser, among others.
+The WebKit Project 
+The WebKit Project maintains the WebKit layout engine, which forms the core of Safari web browser.
+The Chromium Project 
+The Chromium Project maintains the Blink layout engine, which forms the core of the Chrome, Edge, and Brave web browsers, among others.
+• What are the ways to integrate CSS as a web page?
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+• What is embedded style sheets?
+Embedded style sheets are particularly useful for HTML documents that have unique style requirements from the rest of the documents in your project. However, if the styles need to be applied across multiple documents, you should link to an external style sheet instead of using individual embedded style sheets
+• What are the external style sheets?
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+An external style sheet can be written in any text editor, and must be saved with a .css extension.
+• What is the meaning of the CSS selector?
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+This page will explain the most basic CSS selectors.
+
